@@ -7,14 +7,95 @@
  */
 
     
-.container1{
+#container1{
      background-image: url(https://tinyhorse.com/wp-content/uploads/2019/12/Careers-header.jpg);
-    background-color: lightcyan;
+   
     background-repeat: no-repeat;
     background-size: 100%;
-   background-attachment: scroll;
+ /*   background-attachment: scroll; */
    background-position: cover;
 
 }
+#container2{
+    height:50px;
+    
+    background-image: url(https://tinyhorse.com/wp-content/uploads/2019/04/Tiny-Horse-Agency-Gradient.jpg);
+    background-size: 100%;
+    
+}
+
+.bg-img {
+    /* The image used */
+    background-image: url("https://tinyhorse.com/wp-content/uploads/2019/12/Culture-pic.jpg");
+  
+    min-height: 700px; 
+    
+
+    /* Center and scale the image nicely */
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+  }
+  
+  /* Add styles to the form container */
+  #container4 {
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
 
 
+  .bg-img2{
+    /* The image used */
+    background-image: url("https://tinyhorse.com/wp-content/uploads/2019/12/Benefits.jpg");
+  
+    min-height: 700px; 
+    
+
+    /* Center and scale the image nicely */
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+  }
+  #container5 {
+    position: absolute;
+    left: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+  }
